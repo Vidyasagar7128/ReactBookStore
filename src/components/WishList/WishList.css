@@ -1,0 +1,57 @@
+.mainfavorite{
+    padding: 20px 12%;
+}
+.favoritecount{
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    height: 55px;
+    border: 1px solid #E4E4E4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    font-weight: 500;
+    background-color: #F5F5F5;
+}
+.favcontent{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E4E4E4;
+}
+.favimg{
+    padding: 35px 25px;
+}
+.favdetails{
+    width: 87%;
+}
+.titlenremovefav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.favdeliconbtn{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.favdeliconbtn:hover{
+    height: 27px;
+    width: 27px;
+    border-radius: 50px;
+    border: 1px solid #E4E4E4;
+}
+.dotdate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderdot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50px;
+}

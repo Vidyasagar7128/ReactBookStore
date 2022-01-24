@@ -1,0 +1,65 @@
+.onebookmain{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 233px;
+    height: 273px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    opacity: 1;
+    cursor: pointer;
+    position: relative;
+}
+.onebookmain:hover{
+    box-shadow: 0px 3px 6px #00000040;
+}
+.bookpart{
+    height: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.onebookdetails{
+    padding: 10px 20px;
+}
+.onebookimg{
+    width: 105px;
+    height: 135px;
+}
+.onerate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    width: 33px;
+    height: 16px;
+    background-color: #388E3C;
+    border-radius: 1px;
+}
+.reviewrate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.outofstock::before{
+    content: 'OUT OF STOCK';
+    position: absolute;
+    box-shadow: 0px 3px 6px #00000029;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 37px;
+    width: 178px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    font-weight: 500;
+    margin-top: 15px;
+}

@@ -1,0 +1,20 @@
+.mainpleaselogin{
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainpleaselogin img{
+    margin-top: 20px;
+}
+.mainpleaselogin button{
+    cursor: pointer;
+    margin-top: 40px;
+    background: none;
+    border: none;
+    border: 1px solid #A03037;
+    border-radius: 2px;
+    opacity: 1;
+    color: #A03037;
+}

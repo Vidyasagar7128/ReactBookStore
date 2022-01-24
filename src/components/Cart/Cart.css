@@ -1,0 +1,218 @@
+.maincart{
+    padding-top: 12px;
+    margin-left: 11.5%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+.cartitem{
+    margin-top: 20px;
+    padding: 20px 36px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+}
+.cartcontent{
+    display: flex;
+    flex-direction: row;
+}
+.cartdetails{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.qtyandremove{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.qtyandremove button{
+    margin-left: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+}
+.minus, .plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+}
+/* .minus:hover, .plus:hover{
+    background-color: #FFDBDD;
+} */
+.qty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 41px;
+    border-radius: 2px;
+    border: 1px solid #DBDBDB;
+    margin-left: 5px;
+}
+.incdec{
+    font-size: 14px;
+    font-weight: 500;
+}
+.placeordercart{
+    width: 100%;
+}
+.placeordercart button{
+    height: 35px;
+    width: 151px;
+    background-color: #3371B5;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    font-weight: 500;
+    color: white;
+}
+.removefromcart:hover{
+    color: #A03037;
+}
+.cartaddress{
+    margin-top: 15px;
+    width: 100%;
+    height: 400px;
+    padding: 20px 20px;
+    border-radius: 2px;
+}
+.caddheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.caddheading button{
+    width: 140px;
+    height: 35px;
+    background: none;
+    border: 1px solid #A03037;
+    color: #A03037;
+    cursor: pointer;
+}
+.leftaddressside{
+    width: 82%;
+    padding-top: 25px;
+    border: 1px solid #A03037;
+}
+.cartleftadd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartaddresscitystate{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cityst{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.cartcitystateinput{
+    display: block;
+    width: 28vw;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #DCDCDC;
+}
+.cartaddresstitle{
+    padding: 10px 0px;
+}
+.cartaddresstitle button{
+    margin-left: 7px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #A03037;
+    font-size: 12px;
+}
+.placeordercartcontinue button{
+    margin-top: 10px;
+    height: 35px;
+    width: 151px;
+    background-color: #3371B5;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    font-weight: 500;
+    color: white;
+}
+.placeordercartdone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.placeordercartdone button{
+    height: 35px;
+    width: 151px;
+    background-color: #3371B5;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+    color: white;
+}
+.orderdonemain{
+    width: 100%;
+}
+.orderdonemain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.orderdoneimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartsupport{
+    margin: 10px 10%;
+    text-align: center;
+}
+
+.helpemail{
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DCDCDC;
+}
+.helpemail div:nth-child(1){
+    margin-left: 17%;
+}
+.helpemail div:nth-child(2){
+    margin-left: 0%;
+}
+.helpemail div:nth-child(3){
+    margin-right: 17%;
+}
+.helpcontact{
+    border: 1px solid #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.helpcontact div{
+    height: 80px;
+    width: 30%;
+    border-right: 1px solid #DCDCDC;
+}
+.helpcontact div:nth-child(3){
+    border: none;
+}

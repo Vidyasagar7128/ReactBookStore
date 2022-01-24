@@ -1,0 +1,35 @@
+.pagenotfound{
+    padding-left: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 753px;
+    width: 100%;
+    background-color: #344A5F;
+    color:white;
+}
+.notfoundbtns{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.notfoundbtns button{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    width: 105px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+.notfoundbtns button:nth-child(1){
+    background-color: white;
+    color: #344A5F;
+}
+.notfoundbtns button:nth-child(2){
+    margin-left: 15px;
+    background:transparent;
+    color: white;
+    border: 2px solid white;
+}

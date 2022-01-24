@@ -1,0 +1,117 @@
+.mainprofile{
+    padding: 15px 10%;
+}
+.tree{
+    font-size: 12px;
+    display: inline-block;
+}
+.tree:nth-child(1){
+    color: #9D9D9D;
+}
+.tree:nth-child(2){
+    color: #0A0102;
+}
+.profilesize{
+    margin-left: 2.5%;
+    width: 512px;
+}
+.userdetails{
+    height: 250px;
+    width: 100%;
+}
+.profileform{
+    display: flex;
+    flex-direction: column;
+}.profileform input{
+    padding-left: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: 1px solid #E2E2E2;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.profileform label{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.editpersoaldetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.editpersoaldetails button{
+    height: 27px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    background-color: #3371B5;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.newaddressheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newaddressheading button{
+    cursor: pointer;
+    height: 29px;
+    border: none;
+    background: none;
+    border: 1px solid #A03037;
+    border-radius: 2px; 
+    color: #A03037;
+}
+.addressdetails{
+    margin-top: 55px;
+}
+.editaddressbtn{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.editaddressbtn button{
+    height: 27px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    background-color: #3371B5;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.fulladdress{
+    height: 82px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #DCDCDC;
+}
+.citystateinput{
+    display: block;
+    width: 251px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #DCDCDC;
+}
+.addresscitystate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cityst{
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
